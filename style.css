@@ -59,3 +59,10 @@ h1 + p {
 #cta-button:hover {
   scale: 1.1;
 }
+
+.video-player {
+  margin: 35px 0;
+  width: min(1100px, calc(100% - 20px));
+  aspect-ratio: 16 / 9;
+  border-radius: 15px;
+}
